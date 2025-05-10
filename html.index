@@ -1,0 +1,188 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sri Bro Cool Tech - AC & Washing Machine Bridge Services in Thiruvarur">
+  <title>Sri Bro Cool Tech | AC & Washing Machine Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f8fafc;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #1e40af, #2563eb);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    nav {
+      background-color: #1e3a8a;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 600;
+    }
+    .hero {
+      background-color: #e0f2fe;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      color: #1e40af;
+      margin-bottom: 15px;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      color: #475569;
+      margin-bottom: 25px;
+    }
+    .button {
+      background-color: #1e40af;
+      color: white;
+      padding: 14px 28px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    .section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+    .section h2 {
+      color: #1e40af;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .section p, .section ul {
+      font-size: 1rem;
+      color: #334155;
+      margin-bottom: 20px;
+    }
+    .services ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .services li {
+      background: #e0f2fe;
+      margin-bottom: 10px;
+      padding: 12px;
+      border-left: 4px solid #2563eb;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 8px;
+    }
+    .testimonial {
+      background-color: #f1f5f9;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-left: 5px solid #1e40af;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #cbd5e1;
+      border-radius: 4px;
+    }
+    .contact-form button {
+      background-color: #1e40af;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #e2e8f0;
+      text-align: center;
+      padding: 20px;
+      color: #475569;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sri Bro Cool Tech</h1>
+    <p>AC & Washing Machine Bridge Service – Trusted by Hundreds in Thiruvarur</p>
+  </header>  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </nav>  <section class="hero">
+    <h2>Expert Cooling & Appliance Solutions</h2>
+    <p>Your home comfort is our top priority. From AC installations to expert washing machine repairs, we’ve got you covered.</p>
+    <a href="#contact" class="button">Get a Free Quote</a>
+  </section>  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>With over 10 years of experience, Sri Bro Cool Tech is a trusted name in AC and washing machine services. We provide fast, reliable, and affordable solutions tailored to your needs in Thiruvarur and nearby regions.</p>
+  </section>  <section id="services" class="section services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>AC Installation & Maintenance</li>
+      <li>AC Gas Refilling & Service</li>
+      <li>Washing Machine Repair (All Brands)</li>
+      <li>Annual Maintenance Contracts</li>
+      <li>Emergency On-site Service</li>
+    </ul>
+  </section>  <section id="gallery" class="section gallery">
+    <h2>Our Work</h2>
+    <p>Here are some glimpses of our recent service jobs:</p>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+      <img src="https://via.placeholder.com/300x200" alt="Gallery 1">
+      <img src="https://via.placeholder.com/300x200" alt="Gallery 2">
+      <img src="https://via.placeholder.com/300x200" alt="Gallery 3">
+    </div>
+  </section>  <section id="testimonials" class="section">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial">
+      <p>"Excellent and quick AC service. Highly recommend Sri Bro Cool Tech!" – Ramesh S.</p>
+    </div>
+    <div class="testimonial">
+      <p>"Affordable washing machine repair done on time. Very satisfied!" – Keerthi A.</p>
+    </div>
+  </section>  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Call or message us anytime. We’re here to help!</p>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p><strong>Phone:</strong> <a href="tel:+919003171246">9003171246</a> | <strong>WhatsApp:</strong> <a href="https://wa.me/919003171246" target="_blank">Click here</a></p>
+  </section>  <footer>
+    <p>&copy; 2025 Sri Bro Cool Tech. All rights reserved.</p>
+    <p>1/233/1, South Street, Thirukkannamangai, Thiruvarur</p>
+  </footer>
+</body>
+</html>
